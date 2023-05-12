@@ -1,0 +1,109 @@
+Microsoft Windows [Version 10.0.19045.2728]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\ELCOT>cd amazon
+
+C:\Users\ELCOT\Amazon>git init
+Initialized empty Git repository in C:/Users/ELCOT/Amazon/.git/
+
+C:\Users\ELCOT\Amazon>git add .
+
+C:\Users\ELCOT\Amazon>git commit -m "commited"
+[master (root-commit) 574d14b] commited
+ 10 files changed, 323 insertions(+)
+ create mode 100644 USER LOGIN.html
+ create mode 100644 a3.html
+ create mode 100644 amazon.1.html
+ create mode 100644 amazon.2.html
+ create mode 100644 amazon.3.html
+ create mode 100644 book-library-shelf-stack.jpg
+ create mode 100644 form2.html
+ create mode 100644 registration.html
+ create mode 100644 user profile.html
+ create mode 100644 www.amazon.com.html
+
+C:\Users\ELCOT\Amazon>git add .
+
+C:\Users\ELCOT\Amazon>git commit -m "changed"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\ELCOT\Amazon>git add .
+
+C:\Users\ELCOT\Amazon>git commit -m "commited"
+[master 4fcc82e] commited
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ELCOT\Amazon>git log
+commit 4fcc82eb266e74d4fdd75711bc3e1a722319ae6c (HEAD -> master)
+Author: ANANDA KUMAR <ANAND032021@outlook.com>
+Date:   Thu May 11 14:01:46 2023 +0530
+
+    commited
+
+commit 574d14b8622fad937046325745f953658b6a3915
+Author: ANANDA KUMAR <ANAND032021@outlook.com>
+Date:   Thu May 11 13:56:45 2023 +0530
+
+    commited
+
+C:\Users\ELCOT\Amazon>574d14b8622fad937046325745f953658b6a3915 4fcc82eb266e74d4fdd75711bc3e1a722319ae6c
+'574d14b8622fad937046325745f953658b6a3915' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\ELCOT\Amazon>git diff 574d14b8622fad937046325745f953658b6a3915 4fcc82eb266e74d4fdd75711bc3e1a722319ae6c
+diff --git a/amazon.1.html b/amazon.1.html
+index 3fce323..9d2b23c 100644
+--- a/amazon.1.html
++++ b/amazon.1.html
+@@ -6,6 +6,7 @@
+         <center>
+             <br>
+             <br>
++            <br>
+         <h1 align="center" style="color:red"><b><mark>AMAZON BOOK WORLD</mark></b></h1>
+     </center>
+     </body>
+
+C:\Users\ELCOT\Amazon>git add .
+
+C:\Users\ELCOT\Amazon>git commit -m "line added"
+[master 1205006] line added
+ 1 file changed, 1 insertion(+)
+
+C:\Users\ELCOT\Amazon>git log
+commit 12050068dcf5965dd40b0d87bdc37a6a3e73c498 (HEAD -> master)
+Author: ANANDA KUMAR <ANAND032021@outlook.com>
+Date:   Thu May 11 14:06:27 2023 +0530
+
+    line added
+
+commit 4fcc82eb266e74d4fdd75711bc3e1a722319ae6c
+Author: ANANDA KUMAR <ANAND032021@outlook.com>
+Date:   Thu May 11 14:01:46 2023 +0530
+
+    commited
+
+commit 574d14b8622fad937046325745f953658b6a3915
+Author: ANANDA KUMAR <ANAND032021@outlook.com>
+Date:   Thu May 11 13:56:45 2023 +0530
+
+    commited
+
+C:\Users\ELCOT\Amazon>git diff 574d14b8622fad937046325745f953658b6a3915 4fcc82eb266e74d4fdd75711bc3e1a722319ae6c 12050068dcf5965dd40b0d87bdc37a6a3e73c498
+diff --cc amazon.1.html
+index 9d2b23c,2971676..3fce323
+--- a/amazon.1.html
++++ b/amazon.1.html
+@@@ -6,8 -6,9 +6,7 @@@
+          <center>
+              <br>
+              <br>
+--            <br>
+          <h1 align="center" style="color:red"><b><mark>AMAZON BOOK WORLD</mark></b></h1>
+ -        <h2>welcome</h2>
+      </center>
+      </body>
+  </html>
+
+C:\Users\ELCOT\Amazon>
